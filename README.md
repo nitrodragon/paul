@@ -12,7 +12,7 @@ The `PREFIX` variable is used to tell the bot what prefix your commands should u
 
 The `TOKEN` variable is your Discord bot's token. You can get this from the Discord Developer Portal.
 
-After you've filled these out, install [discord.js](https://github.com/hydrabolt/discord.js/) using NPM. Be sure you have node.js >=6.0.0, and then run `npm install discord.js --save`. If you need voice support, you can run `npm install discord.js node-opus --save` for node-opus support, or `npm install discord.js opusscript --save` for opusscript support.
+After you've filled these out, install the [indev version of discord.js](https://github.com/hydrabolt/discord.js/) using NPM. Be sure you have node.js >=6.0.0, and then run `npm install hydrabolt/discord.js#indev`. If you need voice support, you can run `npm install discord.js node-opus` for node-opus support, or `npm install discord.js opusscript` for opusscript support.
 
 ### Adding Commands
 
@@ -47,11 +47,10 @@ Paul provides four core commands within `bot.js` out of the box:
 * `unload <file>` - Unloads `<file>`, disabling the command
 * `reload` - Reloads all currently loaded commands
 
-Alongside these, there are three commands in the `commands` folder by default. They can be removed, but they are good utility functions.
+Alongside these, there are three commands in the `commands` folder by default. They can be removed, but they serve as good utility commands.
 
 * `ping` - Used to test if the bot is responding.
-* `nick` - Sets the bot's nickname in the current server
-* `status` - Changes the bot's status (what game they are "playing").
+* `setgame` - Changes the bot's status (what game they are "playing").
 
 ### Roadmap
 
