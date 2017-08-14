@@ -5,9 +5,9 @@ var fs = require('fs');
 
 var bot = new Discord.Client({autoReconnect: true});
 
-bot.OWNERID = '<your-discord-id>';
-bot.PREFIX = '<bot-prefix>';
-bot.TOKEN = '<bot-token>';
+bot.OWNERID = '343926942480859136';
+bot.PREFIX = '$';
+bot.TOKEN = 'MzQ2Njk1MTI2MTQxMjM5Mjk2.DHNksQ.LrG6L0p5X3W5jbGYz4SC0uIaNPI';
 
 bot.DETAILED_LOGGING = false;
 bot.DELETE_COMMANDS = false;
