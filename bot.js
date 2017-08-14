@@ -14,7 +14,7 @@ bot.DELETE_COMMANDS = false;
 
 bot.COLOR = 0x351C75;
 bot.SUCCESS_COLOR = 0x00ff00;
-bot.ERROR_COLOR = 0x0000ff;
+bot.ERROR_COLOR = 0xff0000;
 bot.INFO_COLOR = 0x0000ff;
 
 String.prototype.padRight = function(l,c) {return this+Array(l-this.length+1).join(c||" ")}
